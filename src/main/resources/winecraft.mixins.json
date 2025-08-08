@@ -3,7 +3,8 @@
 	"package": "com.khmurthy.winecraft.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"FoodComponentsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

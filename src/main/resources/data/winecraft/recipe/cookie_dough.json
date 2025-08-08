@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "winecraft:dough",
+    "minecraft:sugar",
+    "minecraft:egg",
+    "minecraft:cocoa_beans"
+  ],
+  "result": {
+    "count": 1,
+    "id": "winecraft:cookie_dough"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["winecraft:cookie_dough"]
+  },
+  "criteria": {
+    "has_cocoa_beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "minecraft:cocoa_beans"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_cocoa_beans"]
+  ]
+}

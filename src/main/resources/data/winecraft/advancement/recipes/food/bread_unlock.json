@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["winecraft:bread_from_campfire_cooking", "winecraft:bread_from_smelting", "winecraft:bread_from_smoking"]
+  },
+  "criteria": {
+    "has_dough": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "winecraft:dough"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_dough"]
+  ]
+}

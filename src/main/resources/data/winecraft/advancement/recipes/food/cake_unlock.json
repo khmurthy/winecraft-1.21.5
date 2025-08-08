@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["winecraft:cake_from_smelting", "winecraft:cake_from_smoking"]
+  },
+  "criteria": {
+    "has_cake_batter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "winecraft:cake_batter"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_cake_batter"]
+  ]
+}

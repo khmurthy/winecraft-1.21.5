@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["winecraft:cookie_from_smelting", "winecraft:cookie_from_smoking"]
+  },
+  "criteria": {
+    "has_cookie_dough": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "winecraft:cookie_dough"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_cookie_dough"]
+  ]
+}

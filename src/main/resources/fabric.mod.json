@@ -3,13 +3,13 @@
 	"id": "winecraft",
 	"version": "${version}",
 	"name": "Winecraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Reworks the recipes and stats of food items to make their nutrition more consistent with their crafting complexity.",
 	"authors": [
-		"Me!"
+		"Kieran Murthy"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/khmurthy/winecraft-1.21.5",
+		"sources": "https://github.com/khmurthy/winecraft-1.21.5"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/winecraft/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.khmurthy.winecraft.WinecraftDataGenerator"
+		],
+		"client": [
+			"com.khmurthy.winecraft.WinecraftClient"
 		]
 	},
 	"mixins": [
@@ -32,6 +35,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"bigger-stack-size": "*"
 	}
 }

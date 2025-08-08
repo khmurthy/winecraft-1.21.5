@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:pumpkin",
+    "minecraft:sugar",
+    "minecraft:egg",
+    "winecraft:dough"
+  ],
+  "result": {
+    "count": 1,
+    "id": "winecraft:uncooked_pumpkin_pie"
+  }
+}

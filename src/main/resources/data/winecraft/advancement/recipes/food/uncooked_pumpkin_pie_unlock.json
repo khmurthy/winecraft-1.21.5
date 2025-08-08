@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["winecraft:uncooked_pumpkin_pie"]
+  },
+  "criteria": {
+    "has_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "minecraft:pumpkin"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_pumpkin"]
+  ]
+}

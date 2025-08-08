@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["winecraft:pumpkin_pie_from_smelting", "winecraft:pumpkin_pie_from_smoking"]
+  },
+  "criteria": {
+    "has_uncooked_pumpkin_pie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "winecraft:uncooked_pumpkin_pie"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_uncooked_pumpkin_pie"]
+  ]
+}
