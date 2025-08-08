@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/khmurthy/winecraft-1.21.5",
 		"sources": "https://github.com/khmurthy/winecraft-1.21.5"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/winecraft/icon.png",
 	"environment": "*",
 	"entrypoints": {

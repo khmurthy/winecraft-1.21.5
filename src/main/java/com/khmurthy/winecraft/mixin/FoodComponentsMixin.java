@@ -22,6 +22,8 @@ public class FoodComponentsMixin {
     @Shadow @Final @Mutable
     public static final FoodComponent COOKED_SALMON = (new FoodComponent.Builder()).nutrition(6).saturationModifier(0.6F).build();
     @Shadow @Final @Mutable
+    public static final FoodComponent COOKED_CHICKEN = (new FoodComponent.Builder()).nutrition(6).saturationModifier(0.6F).build();
+    @Shadow @Final @Mutable
     public static final FoodComponent PUMPKIN_PIE = (new FoodComponent.Builder()).nutrition(8).saturationModifier(0.6F).build();
 
 }
